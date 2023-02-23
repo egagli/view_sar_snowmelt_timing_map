@@ -1,0 +1,497 @@
+<VRTDataset rasterXSize="7622" rasterYSize="20122">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 13N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-105],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32613"]]</SRS>
+  <GeoTransform>  2.0000000000000000e+05,  8.0000000000000000e+01,  0.0000000000000000e+00,  5.5000000000000000e+06,  0.0000000000000000e+00, -8.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Float64" band="1">
+    <NoDataValue>-32768</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SBB/runoff_onset_13SBB_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="0" yOff="16250" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SBC/runoff_onset_13SBC_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="0" yOff="15000" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SBD/runoff_onset_13SBD_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="0" yOff="13750" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SBV/runoff_onset_13SBV_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="0" yOff="18750" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SCA/runoff_onset_13SCA_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="1250" yOff="17499" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SCB/runoff_onset_13SCB_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="1250" yOff="16250" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SCC/runoff_onset_13SCC_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="15000" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SCD/runoff_onset_13SCD_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="1250" yOff="13749" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SCV/runoff_onset_13SCV_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="18750" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SDA/runoff_onset_13SDA_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="2499" yOff="17499" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SDB/runoff_onset_13SDB_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="2499" yOff="16250" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SDC/runoff_onset_13SDC_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="2499" yOff="15000" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SDD/runoff_onset_13SDD_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="2500" yOff="13749" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SDV/runoff_onset_13SDV_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="2499" yOff="18750" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SEA/runoff_onset_13SEA_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="3750" yOff="17499" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SEB/runoff_onset_13SEB_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="3750" yOff="16250" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SEC/runoff_onset_13SEC_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="15000" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13SED/runoff_onset_13SED_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="3750" yOff="13749" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TBE/runoff_onset_13TBE_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="0" yOff="12500" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TBF/runoff_onset_13TBF_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="0" yOff="11250" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TBG/runoff_onset_13TBG_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="0" yOff="10000" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCE/runoff_onset_13TCE_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="12500" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCF/runoff_onset_13TCF_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="1250" yOff="11250" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCG/runoff_onset_13TCG_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="1250" yOff="10000" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCH/runoff_onset_13TCH_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="1250" yOff="8750" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCJ/runoff_onset_13TCJ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="7500" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCK/runoff_onset_13TCK_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="6250" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCL/runoff_onset_13TCL_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="1250" yOff="5000" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCM/runoff_onset_13TCM_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="3750" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TCN/runoff_onset_13TCN_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="1250" yOff="2499" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDE/runoff_onset_13TDE_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="2499" yOff="12500" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDF/runoff_onset_13TDF_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="2499" yOff="11250" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDH/runoff_onset_13TDH_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="2499" yOff="8750" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDJ/runoff_onset_13TDJ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="2499" yOff="7500" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDK/runoff_onset_13TDK_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="2499" yOff="6249" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDL/runoff_onset_13TDL_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="2499" yOff="5000" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDM/runoff_onset_13TDM_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="2500" yOff="3750" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TDN/runoff_onset_13TDN_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="2500" yOff="2500" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TEF/runoff_onset_13TEF_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="11250" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TEJ/runoff_onset_13TEJ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="7500" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TEK/runoff_onset_13TEK_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="6250" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TEL/runoff_onset_13TEL_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="3750" yOff="5000" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TEM/runoff_onset_13TEM_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="3750" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TEN/runoff_onset_13TEN_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="2500" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TFL/runoff_onset_13TFL_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="5000" yOff="5000" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TFM/runoff_onset_13TFM_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="5000" yOff="3750" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TFN/runoff_onset_13TFN_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="5000" yOff="2500" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TGK/runoff_onset_13TGK_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="6249" yOff="6250" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TGL/runoff_onset_13TGL_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="6250" yOff="5000" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TGM/runoff_onset_13TGM_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="6249" yOff="3750" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13TGN/runoff_onset_13TGN_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="6250" yOff="2500" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UCP/runoff_onset_13UCP_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="1250" yOff="1250" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UCQ/runoff_onset_13UCQ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="1250" yOff="0" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UDP/runoff_onset_13UDP_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="2500" yOff="1250" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UDQ/runoff_onset_13UDQ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="2500" yOff="0" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UEP/runoff_onset_13UEP_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
+      <DstRect xOff="3750" yOff="1250" xSize="1372" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UEQ/runoff_onset_13UEQ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="3750" yOff="0" xSize="1372" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UFP/runoff_onset_13UFP_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="5000" yOff="1250" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UFQ/runoff_onset_13UFQ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="5000" yOff="0" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UGP/runoff_onset_13UGP_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="6249" yOff="1250" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/13UGQ/runoff_onset_13UGQ_2018_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="6249" yOff="0" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4</OverviewList>
+</VRTDataset>
