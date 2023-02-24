@@ -5,7 +5,7 @@
     <NoDataValue>-32768</NoDataValue>
     <ColorInterp>Gray</ColorInterp>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SFJ/runoff_onset_10SFJ_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SFJ/runoff_onset_10SFJ_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -13,7 +13,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SGG/runoff_onset_10SGG_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SGG/runoff_onset_10SGG_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -21,7 +21,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SGH/runoff_onset_10SGH_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SGH/runoff_onset_10SGH_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -29,7 +29,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SGJ/runoff_onset_10SGJ_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10SGJ/runoff_onset_10SGJ_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
@@ -37,7 +37,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TDL/runoff_onset_10TDL_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TDL/runoff_onset_10TDL_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -45,7 +45,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TDM/runoff_onset_10TDM_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TDM/runoff_onset_10TDM_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -53,7 +53,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TDT/runoff_onset_10TDT_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TDT/runoff_onset_10TDT_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -61,7 +61,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEL/runoff_onset_10TEL_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEL/runoff_onset_10TEL_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -69,7 +69,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEM/runoff_onset_10TEM_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEM/runoff_onset_10TEM_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
@@ -77,7 +77,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEN/runoff_onset_10TEN_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEN/runoff_onset_10TEN_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
@@ -85,7 +85,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEP/runoff_onset_10TEP_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEP/runoff_onset_10TEP_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -93,7 +93,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEQ/runoff_onset_10TEQ_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TEQ/runoff_onset_10TEQ_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -101,7 +101,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TER/runoff_onset_10TER_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TER/runoff_onset_10TER_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
@@ -109,7 +109,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TES/runoff_onset_10TES_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TES/runoff_onset_10TES_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -117,7 +117,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TET/runoff_onset_10TET_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TET/runoff_onset_10TET_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -125,7 +125,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFK/runoff_onset_10TFK_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFK/runoff_onset_10TFK_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -133,7 +133,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFL/runoff_onset_10TFL_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFL/runoff_onset_10TFL_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -141,7 +141,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFM/runoff_onset_10TFM_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFM/runoff_onset_10TFM_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -149,7 +149,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFN/runoff_onset_10TFN_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFN/runoff_onset_10TFN_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -157,7 +157,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFP/runoff_onset_10TFP_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFP/runoff_onset_10TFP_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -165,7 +165,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFQ/runoff_onset_10TFQ_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFQ/runoff_onset_10TFQ_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -173,7 +173,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFR/runoff_onset_10TFR_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFR/runoff_onset_10TFR_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -181,7 +181,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFS/runoff_onset_10TFS_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFS/runoff_onset_10TFS_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -189,7 +189,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFT/runoff_onset_10TFT_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TFT/runoff_onset_10TFT_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -197,7 +197,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGK/runoff_onset_10TGK_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGK/runoff_onset_10TGK_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -205,7 +205,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGL/runoff_onset_10TGL_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGL/runoff_onset_10TGL_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -213,7 +213,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGM/runoff_onset_10TGM_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGM/runoff_onset_10TGM_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -221,7 +221,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGN/runoff_onset_10TGN_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGN/runoff_onset_10TGN_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -229,7 +229,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGP/runoff_onset_10TGP_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGP/runoff_onset_10TGP_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -237,7 +237,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGQ/runoff_onset_10TGQ_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGQ/runoff_onset_10TGQ_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -245,7 +245,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGR/runoff_onset_10TGR_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGR/runoff_onset_10TGR_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
@@ -253,7 +253,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGS/runoff_onset_10TGS_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGS/runoff_onset_10TGS_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -261,7 +261,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGT/runoff_onset_10TGT_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10TGT/runoff_onset_10TGT_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -269,7 +269,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UCV/runoff_onset_10UCV_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UCV/runoff_onset_10UCV_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -277,7 +277,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UDU/runoff_onset_10UDU_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UDU/runoff_onset_10UDU_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -285,7 +285,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UDV/runoff_onset_10UDV_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UDV/runoff_onset_10UDV_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
@@ -293,7 +293,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UEU/runoff_onset_10UEU_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UEU/runoff_onset_10UEU_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
@@ -301,7 +301,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UFU/runoff_onset_10UFU_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UFU/runoff_onset_10UFU_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -309,7 +309,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UFV/runoff_onset_10UFV_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UFV/runoff_onset_10UFV_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
@@ -317,7 +317,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UGU/runoff_onset_10UGU_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UGU/runoff_onset_10UGU_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
@@ -325,7 +325,7 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UGV/runoff_onset_10UGV_2015_median_80m.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UGV/runoff_onset_10UGV_allyears_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
