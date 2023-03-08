@@ -1,13 +1,13 @@
-<VRTDataset rasterXSize="7622" rasterYSize="22622">
+<VRTDataset rasterXSize="7622" rasterYSize="23872">
   <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 12N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-111],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32612"]]</SRS>
   <GeoTransform>  2.0000000000000000e+05,  8.0000000000000000e+01,  0.0000000000000000e+00,  5.5000000000000000e+06,  0.0000000000000000e+00, -8.0000000000000000e+01</GeoTransform>
-  <VRTRasterBand dataType="Float64" band="1">
+  <VRTRasterBand dataType="Int16" band="1">
     <NoDataValue>-32768</NoDataValue>
     <ColorInterp>Gray</ColorInterp>
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12STG/runoff_onset_12STG_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="0" yOff="16250" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -15,7 +15,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12STH/runoff_onset_12STH_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="0" yOff="15000" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -23,7 +23,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12STJ/runoff_onset_12STJ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="0" yOff="13750" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -31,7 +31,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SUF/runoff_onset_12SUF_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="1250" yOff="17499" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -39,7 +39,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SUG/runoff_onset_12SUG_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="1250" yOff="16250" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -47,7 +47,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SUH/runoff_onset_12SUH_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="1250" yOff="15000" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -55,7 +55,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SUJ/runoff_onset_12SUJ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="1250" yOff="13749" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -63,7 +63,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SVF/runoff_onset_12SVF_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="2499" yOff="17499" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -71,7 +71,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SVG/runoff_onset_12SVG_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="2499" yOff="16250" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -79,7 +79,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SVH/runoff_onset_12SVH_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="2499" yOff="15000" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -87,7 +87,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SVJ/runoff_onset_12SVJ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="2500" yOff="13749" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -95,7 +95,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SWG/runoff_onset_12SWG_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="16250" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -103,7 +103,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SWH/runoff_onset_12SWH_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="15000" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -111,15 +111,23 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SWJ/runoff_onset_12SWJ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="13749" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXC/runoff_onset_12SXC_2020_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
+      <DstRect xOff="5000" yOff="21249" xSize="1373" ySize="1373" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXE/runoff_onset_12SXE_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="5000" yOff="18750" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -127,7 +135,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXF/runoff_onset_12SXF_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="17499" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -135,7 +143,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXG/runoff_onset_12SXG_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="5000" yOff="16250" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -143,7 +151,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXH/runoff_onset_12SXH_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="5000" yOff="15000" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -151,15 +159,23 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXJ/runoff_onset_12SXJ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="13749" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYB/runoff_onset_12SYB_2020_median_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
+      <DstRect xOff="6249" yOff="22500" xSize="1373" ySize="1372" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYC/runoff_onset_12SYC_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="6250" yOff="21249" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -167,7 +183,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYF/runoff_onset_12SYF_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="6249" yOff="17500" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -175,7 +191,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYG/runoff_onset_12SYG_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="6249" yOff="16250" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -183,7 +199,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYH/runoff_onset_12SYH_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="6249" yOff="15000" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -191,7 +207,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYJ/runoff_onset_12SYJ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="6250" yOff="13749" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -199,7 +215,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TTK/runoff_onset_12TTK_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="0" yOff="12500" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -207,7 +223,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TTL/runoff_onset_12TTL_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="0" yOff="11250" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -215,7 +231,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TTM/runoff_onset_12TTM_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="0" yOff="10000" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -223,7 +239,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUK/runoff_onset_12TUK_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="1250" yOff="12500" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -231,7 +247,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUL/runoff_onset_12TUL_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="1250" yOff="11250" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -239,7 +255,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUM/runoff_onset_12TUM_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="1250" yOff="10000" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -247,7 +263,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUN/runoff_onset_12TUN_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="1250" yOff="8750" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -255,7 +271,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUP/runoff_onset_12TUP_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="1250" yOff="7500" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -263,7 +279,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUQ/runoff_onset_12TUQ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="1250" yOff="6250" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -271,7 +287,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUR/runoff_onset_12TUR_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="1250" yOff="5000" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -279,7 +295,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUS/runoff_onset_12TUS_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="1250" yOff="3750" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -287,7 +303,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TUT/runoff_onset_12TUT_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="1250" yOff="2499" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -295,7 +311,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVK/runoff_onset_12TVK_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="2499" yOff="12500" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -303,7 +319,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVL/runoff_onset_12TVL_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="2499" yOff="11250" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -311,7 +327,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVM/runoff_onset_12TVM_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="2499" yOff="9999" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -319,7 +335,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVN/runoff_onset_12TVN_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="2499" yOff="8750" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -327,7 +343,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVP/runoff_onset_12TVP_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="2499" yOff="7500" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -335,7 +351,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVQ/runoff_onset_12TVQ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="2499" yOff="6249" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -343,7 +359,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVR/runoff_onset_12TVR_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="2499" yOff="5000" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -351,7 +367,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVS/runoff_onset_12TVS_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="2500" yOff="3750" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -359,7 +375,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TVT/runoff_onset_12TVT_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="2500" yOff="2500" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -367,7 +383,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWK/runoff_onset_12TWK_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="12500" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -375,7 +391,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWL/runoff_onset_12TWL_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="11250" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -383,7 +399,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWM/runoff_onset_12TWM_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="9999" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -391,7 +407,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWN/runoff_onset_12TWN_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="8750" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -399,7 +415,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWP/runoff_onset_12TWP_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="7500" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -407,7 +423,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWQ/runoff_onset_12TWQ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="6250" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -415,7 +431,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWR/runoff_onset_12TWR_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="5000" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -423,7 +439,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWS/runoff_onset_12TWS_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="3750" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -431,7 +447,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TWT/runoff_onset_12TWT_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="2500" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -439,7 +455,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXK/runoff_onset_12TXK_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="12500" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -447,7 +463,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXL/runoff_onset_12TXL_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="5000" yOff="11250" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -455,7 +471,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXM/runoff_onset_12TXM_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="9999" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -463,7 +479,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXN/runoff_onset_12TXN_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="8750" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -471,7 +487,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXP/runoff_onset_12TXP_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="5000" yOff="7500" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -479,7 +495,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXQ/runoff_onset_12TXQ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="6249" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -487,7 +503,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXR/runoff_onset_12TXR_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="5000" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -495,7 +511,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXS/runoff_onset_12TXS_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="5000" yOff="3750" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -503,7 +519,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TXT/runoff_onset_12TXT_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="5000" yOff="2500" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -511,7 +527,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYK/runoff_onset_12TYK_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="6249" yOff="12500" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -519,7 +535,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYL/runoff_onset_12TYL_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="6250" yOff="11250" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -527,7 +543,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYM/runoff_onset_12TYM_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="6249" yOff="10000" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -535,7 +551,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYN/runoff_onset_12TYN_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="6249" yOff="8750" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -543,7 +559,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYP/runoff_onset_12TYP_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="6250" yOff="7500" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -551,7 +567,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYQ/runoff_onset_12TYQ_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="6249" yOff="6250" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -559,7 +575,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYR/runoff_onset_12TYR_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="6250" yOff="5000" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -567,7 +583,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYS/runoff_onset_12TYS_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="6249" yOff="3750" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -575,7 +591,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12TYT/runoff_onset_12TYT_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="6250" yOff="2500" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -583,7 +599,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UUU/runoff_onset_12UUU_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="1250" yOff="1250" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -591,7 +607,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UUV/runoff_onset_12UUV_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="1250" yOff="0" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -599,7 +615,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UVU/runoff_onset_12UVU_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="2500" yOff="1250" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -607,7 +623,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UVV/runoff_onset_12UVV_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="2500" yOff="0" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -615,7 +631,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UWU/runoff_onset_12UWU_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1373" />
       <DstRect xOff="3750" yOff="1250" xSize="1372" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -623,7 +639,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UWV/runoff_onset_12UWV_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
       <DstRect xOff="3750" yOff="0" xSize="1372" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -631,7 +647,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UXU/runoff_onset_12UXU_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="5000" yOff="1250" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -639,7 +655,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UXV/runoff_onset_12UXV_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="5000" yOff="0" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>
@@ -647,7 +663,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UYU/runoff_onset_12UYU_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1373" />
       <DstRect xOff="6249" yOff="1250" xSize="1373" ySize="1373" />
       <NODATA>-32768</NODATA>
@@ -655,7 +671,7 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12UYV/runoff_onset_12UYV_2020_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Float64" BlockXSize="512" BlockYSize="512" />
+      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
       <DstRect xOff="6249" yOff="0" xSize="1373" ySize="1372" />
       <NODATA>-32768</NODATA>

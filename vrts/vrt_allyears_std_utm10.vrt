@@ -263,6 +263,13 @@
       <DstRect xOff="2500" yOff="1250" xSize="1372" ySize="1373" />
     </SimpleSource>
     <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UEV/runoff_onset_10UEV_allyears_std_80m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
+      <DstRect xOff="2500" yOff="0" xSize="1372" ySize="1372" />
+    </SimpleSource>
+    <SimpleSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UFU/runoff_onset_10UFU_allyears_std_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Float32" BlockXSize="512" BlockYSize="512" />

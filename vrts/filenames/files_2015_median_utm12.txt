@@ -18,6 +18,7 @@ https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXF/runoff_onset_12S
 https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXG/runoff_onset_12SXG_2015_median_80m.tif
 https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXH/runoff_onset_12SXH_2015_median_80m.tif
 https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SXJ/runoff_onset_12SXJ_2015_median_80m.tif
+https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYB/runoff_onset_12SYB_2015_median_80m.tif
 https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYC/runoff_onset_12SYC_2015_median_80m.tif
 https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYF/runoff_onset_12SYF_2015_median_80m.tif
 https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/12SYG/runoff_onset_12SYG_2015_median_80m.tif
