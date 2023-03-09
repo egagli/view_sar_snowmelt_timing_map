@@ -1,0 +1,4 @@
+vrts/vrt_allyears_std_utm11.vrt
+vrts/vrt_allyears_std_utm10.vrt
+vrts/vrt_allyears_std_utm12.vrt
+vrts/vrt_allyears_std_utm13.vrt

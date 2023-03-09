@@ -1,0 +1,4 @@
+vrts/vrt_allyears_corr_strength_utm11.vrt
+vrts/vrt_allyears_corr_strength_utm13.vrt
+vrts/vrt_allyears_corr_strength_utm12.vrt
+vrts/vrt_allyears_corr_strength_utm10.vrt

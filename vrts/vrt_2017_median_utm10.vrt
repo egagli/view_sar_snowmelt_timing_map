@@ -317,14 +317,6 @@
       <NODATA>-32768</NODATA>
     </ComplexSource>
     <ComplexSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UFV/runoff_onset_10UFV_2017_median_80m.tif</SourceFilename>
-      <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1373" RasterYSize="1372" DataType="Int16" BlockXSize="512" BlockYSize="512" />
-      <SrcRect xOff="0" yOff="0" xSize="1373" ySize="1372" />
-      <DstRect xOff="3750" yOff="0" xSize="1373" ySize="1372" />
-      <NODATA>-32768</NODATA>
-    </ComplexSource>
-    <ComplexSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/10UGU/runoff_onset_10UGU_2017_median_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1373" RasterYSize="1373" DataType="Int16" BlockXSize="512" BlockYSize="512" />
