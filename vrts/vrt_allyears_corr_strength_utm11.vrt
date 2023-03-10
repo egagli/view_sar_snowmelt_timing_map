@@ -313,13 +313,6 @@
       <DstRect xOff="3750" yOff="8750" xSize="1372" ySize="1373" />
     </SimpleSource>
     <SimpleSource>
-      <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/11TNJ/runoff_onset_11TNJ_allyears_corr_strength_80m.tif</SourceFilename>
-      <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float32" BlockXSize="512" BlockYSize="512" />
-      <SrcRect xOff="0" yOff="0" xSize="1372" ySize="1372" />
-      <DstRect xOff="3750" yOff="7500" xSize="1372" ySize="1372" />
-    </SimpleSource>
-    <SimpleSource>
       <SourceFilename relativeToVRT="0">https://snowmelt.blob.core.windows.net/snowmelt/eric/MGRS/11TNK/runoff_onset_11TNK_allyears_corr_strength_80m.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="1372" RasterYSize="1372" DataType="Float32" BlockXSize="512" BlockYSize="512" />

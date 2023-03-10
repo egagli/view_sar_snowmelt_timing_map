@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="26560" rasterYSize="24712">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["unknown",GEOGCS["unknown",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",39.1768337],PARAMETER["longitude_of_center",-113.8623047],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform> -1.0106925892011335e+06,  7.9991882376252462e+01,  0.0000000000000000e+00,  1.2262729350107743e+06,  0.0000000000000000e+00, -7.9991882376252462e+01</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <NoDataValue>-32768</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2019_median_utm10_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8239" RasterYSize="18202" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="8239" ySize="18202" />
+      <DstRect xOff="0" yOff="99.8469697682816" xSize="8231.92015628414" ySize="18186.3588645083" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2019_median_utm13_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9635" RasterYSize="20749" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="9634.67765702008" ySize="20749" />
+      <DstRect xOff="16910.4982396324" yOff="0" xSize="9649.50176036758" ySize="20780.9248169277" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2019_median_utm12_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8419" RasterYSize="24088" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="8419" ySize="24087.9794905668" />
+      <DstRect xOff="11465.3794096113" yOff="640.383737061499" xSize="8413.28088132269" ySize="24071.6162629385" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
