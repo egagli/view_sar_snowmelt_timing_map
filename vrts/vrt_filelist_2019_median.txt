@@ -1,4 +1,0 @@
-vrts/vrt_2019_median_utm11_proj.vrt
-vrts/vrt_2019_median_utm10_proj.vrt
-vrts/vrt_2019_median_utm13_proj.vrt
-vrts/vrt_2019_median_utm12_proj.vrt
