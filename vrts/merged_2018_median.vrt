@@ -1,0 +1,40 @@
+<VRTDataset rasterXSize="33280" rasterYSize="22909">
+  <SRS dataAxisToSRSAxisMapping="1,2">GEOGCS["unknown",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH]]</SRS>
+  <GeoTransform> -1.2576905774721389e+02,  7.5284127829573517e-04,  0.0000000000000000e+00,  4.9652541741731653e+01,  0.0000000000000000e+00, -7.5284127829573517e-04</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <NoDataValue>-32768</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2018_median_utm13_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11121" RasterYSize="19176" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="11121" ySize="19176" />
+      <DstRect xOff="22074.589879182" yOff="0" xSize="11204.9197553085" ySize="19320.7032845783" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2018_median_utm12_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11295" RasterYSize="23092" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="11295" ySize="23092" />
+      <DstRect xOff="14104.7824669441" yOff="0" xSize="11205.2620442555" ySize="22908.5357349224" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2018_median_utm10_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9333" RasterYSize="16863" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="9333" ySize="16863" />
+      <DstRect xOff="0" yOff="0" xSize="9370.17754637551" ySize="16930.1729309472" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">vrt_2018_median_utm11_proj.vrt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11245" RasterYSize="21790" DataType="Int16" BlockXSize="512" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="11245" ySize="21790" />
+      <DstRect xOff="6134.97505470623" yOff="0" xSize="11204.6913380596" ySize="21711.8918858442" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
